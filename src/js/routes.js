@@ -7,7 +7,7 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
     })
 
     .state('details', {
-      url: '/details',
+      url: '/details/:id',
       templateUrl: 'templates/details.tpl.html',
       controller: 'DetailsController as details'
     })

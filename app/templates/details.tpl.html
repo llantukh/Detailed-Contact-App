@@ -1,4 +1,27 @@
-<div class="card">
-  <h3>{{ details.contact.name }}</h3>
-  <img ng-src="{{ details.contact.url }}" />
+<div class="box">
+  <table class="table" >
+    <tbody>
+      <tr>
+        <td>
+          {{details.contact.name}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          {{details.contact.email}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          {{details.contact.phone}}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          {{details.contact.location}}
+        </td>
+      </tr>
+      <tr></tr>
+    </tbody>
+  </table>
 </div>

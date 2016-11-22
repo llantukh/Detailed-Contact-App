@@ -1,29 +1,31 @@
-<form ng-submit="add.addContact(contact)"
+<div class="box">
+  <form ng-submit="add.addContact(contact)"
 
-  <label class="label">Name</label>
-  <p class="control">
-    <input class="input" type="text"
-      ng-model="contact.name"/>
-  </p>
-
-  <label class="label">Email</label>
-    <p class="control has-icon has-icon-right">
-      <input class="input" type="text"
-        ng-model="contact.email"/>
-    </p>
-
-  <label class="label">Phone</label>
-    <p class="control has-icon has-icon-right">
-      <input class="input" type="text"
-        ng-model="contact.phone"/>
-    </p>
-
-  <label class="label">Location</label>
+    <label class="label">Name</label>
     <p class="control">
-      <input class="input"
-        ng-model="contact.location"/>
+      <input class="input" type="text"
+        ng-model="contact.name"/>
     </p>
 
-  <button class="button is-primary">Submit</button>
+    <label class="label">Email</label>
+      <p class="control has-icon has-icon-right">
+        <input class="input" type="text"
+          ng-model="contact.email"/>
+      </p>
 
-</form>
+    <label class="label">Phone</label>
+      <p class="control has-icon has-icon-right">
+        <input class="input" type="text"
+          ng-model="contact.phone"/>
+      </p>
+
+    <label class="label">Location</label>
+      <p class="control">
+        <input class="input"
+          ng-model="contact.location"/>
+      </p>
+
+    <button class="button is-primary">Submit</button>
+
+  </form>
+</div>

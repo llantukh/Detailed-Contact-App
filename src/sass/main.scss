@@ -4,5 +4,33 @@
   width: 500px;
   height: 500px;
   overflow: auto;
-  margin: 100px auto;
+  margin: 70px auto;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 15px;
+}
+
+.photos {
+  text-align: center;
+  background-color: #7A7A7A;
+  border-radius: 3px;
+}
+
+img {
+  border-radius: 130px;
+}
+
+button {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+input {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.fa {
+  margin-top: 5px;
 }

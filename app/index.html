@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body ng-app = "app">
     <div class="container">
-      <p>Welcome to your life.</p>
+      <a href = "#/"><p>Home</p></a>
+      <a href = "#/add"><p>Add New Contact</p></a>
+    </div>
+    <div class = "main-content" ui-view>
     </div>
     <script src="js/bundle.js"></script>
   </body>

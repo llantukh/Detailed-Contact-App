@@ -1,0 +1,19 @@
+<div class="box" ng-repeat = "contact in home.contacts">
+  <article class="media">
+    <a href = '#/details/{{ contact_id }}'/>
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="http://placecage.com/128/128" alt="Image">
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content contacts">
+        <p>
+          <strong>{{contact.name}}</strong> <small>{{contact.email}}</small> <small>{{contact.website}}</small>
+          <br>
+          {{contact.message}}
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
